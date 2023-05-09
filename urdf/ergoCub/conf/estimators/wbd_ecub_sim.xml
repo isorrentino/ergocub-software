@@ -58,6 +58,7 @@
                 <!-- imu -->
                 <elem name="imu">head_inertial_hardware_device</elem>
                 <elem name="waist_imu">waist_inertial_hardware_device</elem>
+                <elem name="r_foot_rear_imu">r_foot_rear_inertial_hardware_device</elem>
                 <!-- ft -->
                 <elem name="l_arm_ft_sensor">ergocub_left_arm_ft</elem>
                 <elem name="r_arm_ft_sensor">ergocub_right_arm_ft</elem>

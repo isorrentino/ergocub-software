@@ -2,14 +2,14 @@
 <!DOCTYPE devices PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
 
-    <device xmlns:xi="http://www.w3.org/2001/XInclude" name="head-inertials_wrapper" type="multipleanalogsensorsserver">
+    <device xmlns:xi="http://www.w3.org/2001/XInclude" name="r_foot_rear-inertials_wrapper" type="multipleanalogsensorsserver">
         <param name="period">       10                  </param>
-        <param name="name">     ${portprefix}/head/inertials       </param>
+        <param name="name">     ${portprefix}/r_foot_rear/inertials       </param>
 
 
         <action phase="startup" level="10" type="attach">
             <paramlist name="networks">
-                <elem name="SetOfIMUs">      </elem>
+                <elem name="SetOfIMUs"> r_foot_rear_inertial_hardware_device </elem>
             </paramlist>
         </action>
 
